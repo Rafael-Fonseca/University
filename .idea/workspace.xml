@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="76e8a50e-d567-4d31-958e-db8a62b1aa79" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,14 +14,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py">
+      <file leaf-file-name="nome.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/00 lessons/2019-02-21/nome.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="134">
+              <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
+                <element signature="e#522#653#1" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/01 quickStart/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -35,6 +45,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>route</find>
+      <find>url_for</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -48,6 +64,7 @@
         <option value="$PROJECT_DIR$/Artificial Intelligence/startThinking.py" />
         <option value="$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/hello.py" />
         <option value="$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py" />
+        <option value="$PROJECT_DIR$/LTP 2/learningFlask/00 lessons/2019-02-21/nome.py" />
       </list>
     </option>
   </component>
@@ -87,24 +104,22 @@
               <item name="University" type="462c0819:PsiDirectoryNode" />
               <item name="LTP 2" type="462c0819:PsiDirectoryNode" />
               <item name="learningFlask" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="00 lessons" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="University" type="b2602c69:ProjectViewProjectNode" />
               <item name="University" type="462c0819:PsiDirectoryNode" />
               <item name="LTP 2" type="462c0819:PsiDirectoryNode" />
               <item name="learningFlask" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="flask-tutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="00 lessons" type="462c0819:PsiDirectoryNode" />
+              <item name="2019-02-21" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="University" type="b2602c69:ProjectViewProjectNode" />
               <item name="University" type="462c0819:PsiDirectoryNode" />
               <item name="LTP 2" type="462c0819:PsiDirectoryNode" />
               <item name="learningFlask" type="462c0819:PsiDirectoryNode" />
-              <item name="02 Tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="flask-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="flaskr" type="462c0819:PsiDirectoryNode" />
+              <item name="01 quickStart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,7 +150,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.hello">
+  <component name="RunManager" selected="Python.nome">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="University" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="University" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -172,12 +205,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="nome" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="University" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LTP 2/learningFlask/00 lessons/2019-02-21" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LTP 2/learningFlask/00 lessons/2019-02-21/nome.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.hello" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.nome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nome" />
+        <item itemvalue="Python.__init__" />
         <item itemvalue="Python.hello" />
         <item itemvalue="Python.main" />
       </list>
@@ -198,13 +253,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -222,6 +278,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/01 quickStart/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3094">
@@ -278,26 +344,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/01 quickStart/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/hello.py" />
     <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/02 Tutorial/flask-tutorial/flaskr/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="442">
+          <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/01 quickStart/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LTP 2/learningFlask/00 lessons/2019-02-21/nome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding>
+            <element signature="e#522#653#1" />
           </folding>
         </state>
       </provider>

@@ -6,5 +6,39 @@
 </head>
 <body>
 <h1>Welcome {{username}}</h1>
+
+
+<table style="width:100%">
+    <tr>
+        <th>Disciplina</th>
+        <th>Menção 1</th>
+        <th>Menção 2</th>
+        <th>Menção 3</th>
+    </tr>
+
+    {% set count = 0 %}
+    inicio {{count}}
+    {% for grade in grades%}
+        for{{count}}
+        {%if count == 0%}
+            <tr>
+                <td>{{grade}}{{count}}</td>
+            {{ count++ }}
+
+        {%elif count == 3%}
+                <td>{{count}}{{grade}}</td>
+            </tr>
+            {% set count = 0 %}
+
+        {%else %}
+            <td>{{grade}}outro{{count}}</td>
+            {% set count = (count + 1) %}
+
+        {%endif%}
+    {%endfor%}
+
+</table>
+
+
 </body>
 </html>

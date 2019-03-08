@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% set count = 1 %}
+vai entrar no for {{count}}
+{% for i in range(4) %}
+    {%set count = count + 1 %}
+    dentro do for {{count}}
+{% endfor %}
+</body>
+</html>

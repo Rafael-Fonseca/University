@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Activity</title>
+</head>
+<body>
+
+<h2>User: {{username}}<br>
+    Detail activity {{activity[1]}}<br></h2>
+
+<table style="width:100%">
+
+    <tr>
+    <th>Inicial Date</th>
+    <th>Final Date</th>
+    <th>Responsible</th>
+    <th>Detail</th>
+    </tr>
+
+    <tr>
+        {%for index in range (2, activity|length, 1) %}
+            <th>{{activity[index]}}</th>
+        {%endfor%}
+    </tr>
+
+</table>
+
+
+</body>
+</html>

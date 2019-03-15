@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome {{username}}</title>
+</head>
+<body>
+<h1>Welcome {{username}}</h1>
+
+
+<table style="width:100%">
+    <tr>
+        <th>Nome do projeto</th>
+        <th>Data Final</th>
+        <th>Gerente</th>
+    </tr>
+
+    {%for projetos in projects.get(username)%}
+        <tr>
+        {%for project in range (1, projetos|length )%}
+            {%if project == 1%}
+            <th><a href="/prepare_activities?username={{username}}&proj={{projetos[project -1]}}">{{projetos[project]}}</a></th>
+            {% else %}
+            <th>{{projetos[project]}}</th>
+            {%endif%}
+        {%endfor%}
+        </tr>
+    {%endfor%}
+
+</table>
+
+
+</body>
+</html>
